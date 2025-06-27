@@ -29,5 +29,6 @@
       ]
     }
   },
-  "include": ["src/react-app"]
+  "include": ["src/**/*", "src/**/*.ts", "src/**/*.tsx", "src/**/*.js", "src/**/*.jsx"],
+  "exclude": ["node_modules", "dist", "build", "coverage", "config", "scripts", "public", "src/**/*.test.ts", "src/**/*.test.tsx", "src/**/*.spec.ts", "src/**/*.spec.tsx"]
 }
