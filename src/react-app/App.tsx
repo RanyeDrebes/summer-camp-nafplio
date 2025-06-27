@@ -1,5 +1,5 @@
 import "./App.css";
-import Page from "../react-app/pages/page";
+import Page from "./pages/Page";
 function App() {
 
   return (
